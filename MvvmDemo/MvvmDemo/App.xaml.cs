@@ -13,7 +13,7 @@ namespace MvvmDemo
         {
             InitializeComponent();
 
-            MainPage = new MvvmDemo.MainPage();
+            MainPage =new NavigationPage(new View.MainPage());
         }
 
         protected override void OnStart()

@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 using Xamarin.Forms;
 
-namespace MvvmDemo
+namespace MvvmDemo.View
 {
-    public partial class MainPage : ContentPage
+    public partial class NextPage : ContentPage
     {
-        public MainPage()
+        public NextPage()
         {
             InitializeComponent();
         }
